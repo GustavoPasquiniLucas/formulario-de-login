@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Fiap</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <h1>Portal do Usuário</h1>
+        <p align = "left">Login<input type="text" size="30" maxlength="50"></p>
+        <p align = "left">Senha<input type="text" size="30" maxlength="50"></p>
+        <button>Entrar</button><br><br>
+        Não tem conta <a href="Clique aqui">Clique aqui</a>
+        <p>Criar conta <input type="radio" name="conta" value="Criar Conta">
+        Não criar conta <input type="radio" name="conta" value="Criar Conta"></p>
+    </form>
+    <form>
+        <h1>Cadastro do Usuário</h1>
+        <p align = "left">Login<input type="text" size="30" maxlength="50"></p>
+        <p align = "left">Senha<input type="text" size="30" maxlength="16"></p>
+        <p align = "left">Confirmar senha<input type="text" size="30" maxlength="50"></p>
+        <p align = "left">Nome <input type="text" size="40" maxlength="50"></p>
+        <p align = "left">Endereço<input type="text" size="30" maxlength="50"></p>
+        <p align = "left">CPF<input type="text" size="11"></p>
+        <fieldset class="multiple-field" width="10">
+            <legend>Telefones</legend>
+            <div><input name="telefone"/></div>
+        </fieldset>
+        <p align = "left">Email<input type="text" size="50"></p>
+        <p align = "left">Perfil
+            <select name="Perfil">
+                <option value="A">Prata</option>
+                <option value="B">Ouro</option>
+                <option value="C">Diamante</option>
+            </select>
+        </p>
+        <p align = "left">Vouncher<input type="text" size="20"></p>
+        <p align = "left">Observações></p>
+        <textarea name="observacao" rows="10" cols="60"></textarea>
+        <br><br>
+        <button>Incluir</button><button>Excluir</button><br><br>
+
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 500px; /* Adjust width as needed */
+    margin: 0 auto 20px; /* Margin for spacing */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px; /* Add space between buttons */
+  }
+  
+  .button:hover {
+    background-color: #444; /* Add hover effect */
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .radio-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .radio-container input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  fieldset {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  fieldset legend {
+    padding: 5px;
+    font-weight: bold;
+  }
+  
+  .multiple-field {
+    display: flex; /* Allow multiple phone number inputs */
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+  }
+  
+  .multiple-field input[name="telefone"] {
+    width: calc(50% - 10px); /* Allow two inputs side-by-side */
+    margin: 5px;
+  }
+  
+  textarea {
+    resize: vertical; /* Allow resizing textarea */
+  }
+  
